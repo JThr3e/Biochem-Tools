@@ -47,7 +47,7 @@ def gen_chart(acid_desc):
         plt.plot(pH, answer_dict[sp], label=sp)
     plt.title(acid_desc["name"])
     plt.legend()
-    plt.savefig('/mnt/c/Users/josep/OneDrive/Pictures/'+acid_desc["name"]+'.png') 
+    plt.savefig(acid_desc["name"]+'.png') 
     
 gen_chart(histidine)            
 
