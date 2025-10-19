@@ -9,7 +9,7 @@ phosphoric = {
 
 histidine = {
     "name": "Histidine",
-    "species": ["Carboxyl", "Carboxylate", "Imidazolate", "Amino"],
+    "species": ["Carboxyl", "Carboxylate", "Imidazole", "Amino"],
     "pKa" : [1.8, 6.0, 9.17] 
 }
 
